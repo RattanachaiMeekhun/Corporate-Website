@@ -1,0 +1,59 @@
+
+[
+  {
+    "id": "serv-001",
+    "name": "Digital Transformation",
+    "category": "Consulting",
+    "summary": "We guide your business through the complexities of digital transformation, from strategy to execution.",
+    "description": "Our Digital Transformation service is a comprehensive consulting package designed to modernize your business operations. We work with you to identify key areas for improvement, develop a strategic roadmap, and implement cutting-edge technologies that drive efficiency, enhance customer experience, and create new revenue streams.",
+    "image": "https://placehold.co/600x400.png",
+    "deliverables": [
+      "Digital Maturity Assessment",
+      "Strategic Technology Roadmap",
+      "Process Automation Plan",
+      "Change Management Support"
+    ]
+  },
+  {
+    "id": "serv-002",
+    "name": "Cloud Solutions",
+    "category": "IT Services",
+    "summary": "Leverage the power of the cloud with our bespoke architecture, migration, and management services.",
+    "description": "Whether you're moving to the cloud for the first time or optimizing an existing setup, our Cloud Solutions team has you covered. We specialize in designing scalable, secure, and cost-effective cloud architectures on major platforms like AWS, Azure, and Google Cloud. Our services include migration planning, implementation, and ongoing managed support.",
+    "image": "https://placehold.co/600x400.png",
+    "deliverables": [
+      "Custom Cloud Architecture Design",
+      "Seamless Cloud Migration",
+      "24/7 Cloud Infrastructure Management",
+      "Cost Optimization and Reporting"
+    ]
+  },
+  {
+    "id": "serv-003",
+    "name": "Custom Software Development",
+    "category": "Development",
+    "summary": "Building tailor-made software solutions that perfectly align with your unique business needs.",
+    "description": "Off-the-shelf software doesn't always fit. Our Custom Software Development service provides you with solutions built specifically for your business. From complex enterprise applications to mobile apps, our expert developers use agile methodologies to deliver high-quality, scalable, and maintainable software that gives you a competitive edge.",
+    "image": "https://placehold.co/600x400.png",
+    "deliverables": [
+      "Full-cycle Application Development",
+      "Mobile App Development (iOS & Android)",
+      "API and System Integration",
+      "Ongoing Maintenance and Support"
+    ]
+  },
+  {
+    "id": "serv-004",
+    "name": "Cybersecurity Consulting",
+    "category": "Security",
+    "summary": "Proactive security strategies to protect your business from the inside out.",
+    "description": "Our Cybersecurity Consulting services go beyond simple protection. We help you build a resilient security posture through comprehensive risk assessments, vulnerability testing, and policy development. Our experts work with your team to create a culture of security and ensure compliance with industry regulations.",
+    "image": "https://placehold.co/600x400.png",
+    "deliverables": [
+      "Security Risk Assessment",
+      "Penetration Testing",
+      "Compliance Auditing (GDPR, HIPAA, etc.)",
+      "Incident Response Planning"
+    ]
+  }
+]

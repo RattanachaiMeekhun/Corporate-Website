@@ -1,0 +1,43 @@
+
+[
+  {
+    "id": "port-001",
+    "title": "Enterprise ERP Overhaul for Innovate Inc.",
+    "category": "Digital Transformation",
+    "image": "https://placehold.co/600x400.png",
+    "summary": "A complete modernization of Innovate Inc.'s legacy ERP system, resulting in a 40% increase in operational efficiency.",
+    "description": "We partnered with Innovate Inc. to replace their outdated ERP system with a modern, cloud-native solution. The project involved a full-scale digital transformation, including process re-engineering, data migration, and system integration. The new platform, powered by SynergyOS, has streamlined their supply chain, financial reporting, and human resources management, leading to significant cost savings and improved decision-making capabilities.",
+    "date": "2023-06-15",
+    "client": "Innovate Inc."
+  },
+  {
+    "id": "port-002",
+    "title": "Global Cloud Migration for Tech Solutions",
+    "category": "Cloud Solutions",
+    "image": "https://placehold.co/600x400.png",
+    "summary": "Migrated over 200 servers to a hybrid cloud environment, improving scalability and reducing IT overhead by 30%.",
+    "description": "Tech Solutions faced challenges with scalability and high maintenance costs for their on-premise data centers. Our team designed and executed a phased migration to a hybrid cloud environment. We leveraged our Cloud Solutions expertise to ensure a seamless transition with minimal downtime. The new infrastructure is more agile, secure, and has provided Tech Solutions with the flexibility to scale their services globally.",
+    "date": "2023-09-01",
+    "client": "Tech Solutions"
+  },
+  {
+    "id": "port-003",
+    "title": "Custom Logistics Platform for Growth Co.",
+    "category": "Custom Software Development",
+    "image": "https://placehold.co/600x400.png",
+    "summary": "Developed a bespoke logistics and fleet management platform, optimizing delivery routes and improving tracking accuracy.",
+    "description": "Growth Co. required a custom software solution to manage their growing logistics network. We developed a comprehensive platform from the ground up, featuring real-time fleet tracking, AI-powered route optimization, and a customer portal for delivery updates. The platform has significantly improved their delivery times, reduced fuel costs, and enhanced customer satisfaction.",
+    "date": "2024-01-20",
+    "client": "Growth Co."
+  },
+  {
+    "id": "port-004",
+    "title": "Cybersecurity Fortification for FinBank",
+    "category": "Cybersecurity Consulting",
+    "image": "https://placehold.co/600x400.png",
+    "summary": "Implemented a robust cybersecurity framework, successfully defending against sophisticated threats and ensuring regulatory compliance.",
+    "description": "For FinBank, a leading financial institution, security is paramount. We conducted a thorough risk assessment and implemented a multi-layered security strategy using our SecureShield product and consulting services. This included advanced threat detection, employee training, and developing a comprehensive incident response plan. FinBank is now better equipped to protect customer data and comply with stringent financial regulations.",
+    "date": "2024-03-10",
+    "client": "FinBank"
+  }
+]
