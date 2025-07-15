@@ -1,12 +1,10 @@
-import { Zap } from 'lucide-react';
-
 export function Logo() {
   return (
     <div className="flex items-center" aria-label="SynergyHub Logo">
-      <Zap className="h-6 w-6 text-accent" />
-      <span className="ml-2 text-xl font-bold font-headline text-primary">
-        SynergyHub
-      </span>
+      <img
+        className="h-[100px] w-[150px] object-contain"
+        src="https://firebasestorage.googleapis.com/v0/b/bimodernpro-cc546.appspot.com/o/color3%403x.png?alt=media&token=506853e5-9db8-4c88-9916-818e116e7166"
+      />
     </div>
   );
 }

@@ -1,23 +1,23 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Button } from './ui/button';
-import { Sheet, SheetContent, SheetTrigger } from './ui/sheet';
-import { Menu } from 'lucide-react';
-import { Logo } from './Logo';
-import { cn } from '@/lib/utils';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
+import { Button } from "./ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet";
+import { Menu } from "lucide-react";
+import { Logo } from "./Logo";
+import { cn } from "@/lib/utils";
 
 const navLinks = [
-  { href: '/', label: 'Home' },
-  { href: '/about', label: 'About' },
-  { href: '/products', label: 'Products' },
-  { href: '/services', label: 'Services' },
-  { href: '/portfolio', label: 'Portfolio' },
-  { href: '/offerings', label: 'Offerings' },
-  { href: '/contact', label: 'Contact' },
-  { href: '/seo-optimizer', label: 'AI SEO' },
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/products", label: "Products" },
+  { href: "/services", label: "Services" },
+  { href: "/portfolio", label: "Portfolio" },
+  { href: "/offerings", label: "Offerings" },
+  { href: "/contact", label: "Contact" },
+  { href: "/seo-optimizer", label: "AI SEO" },
 ];
 
 export function Header() {
@@ -27,9 +27,9 @@ export function Header() {
   const closeMenu = () => setIsMenuOpen(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+    <header className="sticky top-0 z-50 w-full border-b bg-background backdrop-blur supports-[backdrop-filter]:bg-background">
       <div className="container flex h-16 items-center justify-between">
-        <div className="mr-6 flex items-center">
+        <div className="flex justify-between items-center w-full h-full gap-10">
           <Link href="/" className="mr-6" onClick={closeMenu}>
             <Logo />
           </Link>
@@ -39,21 +39,23 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className={cn(
-                  'transition-colors hover:text-foreground/80',
-                  pathname === link.href ? 'text-foreground' : 'text-foreground/60'
+                  "transition-colors hover:text-foreground/80",
+                  pathname === link.href
+                    ? "text-foreground"
+                    : "text-foreground/60"
                 )}
               >
                 {link.label}
               </Link>
             ))}
           </nav>
-        </div>
-
-        <div className="flex items-center">
-          <Button asChild className="hidden md:flex">
+          {/* <Button asChild className="hidden md:flex">
             <Link href="/contact">Get a Quote</Link>
-          </Button>
-
+          </Button> */}
+          <div className="hidden md:flex items-center" />
+        </div>
+        {/* 
+        <div className="flex items-center">
           <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
             <SheetTrigger asChild>
               <Button variant="ghost" className="md:hidden">
@@ -65,7 +67,7 @@ export function Header() {
               <div className="flex flex-col h-full">
                 <div className="p-4">
                   <Link href="/" onClick={closeMenu}>
-                     <Logo />
+                    <Logo />
                   </Link>
                 </div>
                 <nav className="flex flex-col p-4 space-y-3">
@@ -75,8 +77,10 @@ export function Header() {
                       href={link.href}
                       onClick={closeMenu}
                       className={cn(
-                        'text-lg font-medium transition-colors hover:text-foreground/80',
-                        pathname === link.href ? 'text-foreground' : 'text-foreground/60'
+                        "text-lg font-medium transition-colors hover:text-foreground/80",
+                        pathname === link.href
+                          ? "text-foreground"
+                          : "text-foreground/60"
                       )}
                     >
                       {link.label}
@@ -85,13 +89,15 @@ export function Header() {
                 </nav>
                 <div className="mt-auto p-4">
                   <Button asChild className="w-full">
-                    <Link href="/contact" onClick={closeMenu}>Get a Quote</Link>
+                    <Link href="/contact" onClick={closeMenu}>
+                      Get a Quote
+                    </Link>
                   </Button>
                 </div>
               </div>
             </SheetContent>
           </Sheet>
-        </div>
+        </div> */}
       </div>
     </header>
   );
